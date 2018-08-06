@@ -1,0 +1,14 @@
+{
+  "name": "letslearngraphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BolajiOlajide/letslearngraphql.git",
+  "author": "Bolaji Olajide",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-proton": "^1.0.5"
+  }
+}
