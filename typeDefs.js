@@ -8,9 +8,23 @@ const typeDefs = gql`
     rating: Int
   }
 
+  type Developer {
+    name: String
+  }
+
+  type Framework {
+    id: ID!
+    title: String
+    git: String
+    stars: Int
+    developers: [Developer]
+  }
+
   type Query {
     movies: [Movie]
     movie(id: ID!): Movie
+    frameworks: [Framework]
+    framework(id: ID!): Framework
   }
 `;
 
