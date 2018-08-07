@@ -6,9 +6,16 @@
   "author": "Bolaji Olajide",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.0.0"
+    "apollo-server": "^2.0.0",
+    "graphql": "^0.13.2",
+    "winston": "^3.0.0"
   },
   "devDependencies": {
-    "eslint-config-proton": "^1.0.5"
+    "eslint-config-proton": "^1.0.5",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   }
 }
